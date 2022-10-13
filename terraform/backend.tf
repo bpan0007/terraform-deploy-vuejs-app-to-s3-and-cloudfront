@@ -1,9 +1,7 @@
 terraform {
   backend "s3" {
-    bucket     = "mangone-s3-bucket/terraform/"
+    bucket     = "mangone-s3-bucket-123"
     key        = "deploy-vuejs-app-to-s3-cloudfront/terraform.tfstate"
-    region     = "eu-west-1"
-    access_key = var.access_key
-    secret_key = var.secret_key
+    region     = "us-east-1"
   }
 }

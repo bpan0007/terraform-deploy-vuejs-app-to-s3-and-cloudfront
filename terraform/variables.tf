@@ -1,9 +1,9 @@
 variable "access_key" {
-  sensitive = true
+  default = "AKIAQ223KUGU632OEQ6K"
 }
 variable "secret_key" {
-  sensitive = true
+  default = "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"
 }
 variable "region" {
-  default = "eu-west-1"
+  default = "us-east-1"
 }

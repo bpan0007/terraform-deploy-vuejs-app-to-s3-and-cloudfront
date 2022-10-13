@@ -3,7 +3,7 @@
 #################################
 
 resource "aws_s3_bucket" "website" {
-  bucket = "anotherbuginthecode-deploy-vuejs-app-s3-cloudfront"
+  bucket = "anotherbuginthecode-betim-deploy-vuejs-app-s3-cloudfront"
 }
 
 resource "aws_s3_bucket_acl" "website" {
